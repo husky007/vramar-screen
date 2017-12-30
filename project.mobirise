@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Test1",
-    "currentPage": "novosti.html",
+    "name": "PharmaSCREEN",
+    "currentPage": "oglasni-prostor.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -23,9 +23,9 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 65,
+    "uniqCompNum": 66,
     "versionPublish": "4.3.2",
-    "favicon": "@PROJECT_PATH@/assets/images/pharmascreen-logo-128x81-1.png",
+    "favicon": "",
     "noImageResize": ""
   },
   "pages": {
@@ -42,14 +42,14 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#282828",
-            "fontSize": "0.85",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -75,10 +75,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -109,10 +109,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -120,7 +121,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Vramar Screen</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PharmaSCREEN</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-5"
         },
@@ -147,8 +148,8 @@
             "overlayColor": "#000",
             "overlayOpacity": "0.4"
           },
-          "title": "<br>Vramar Screen",
-          "text": "Dobrodošli na našu web stranicu!&nbsp;",
+          "title": "<p><br></p><p>PharmaSCREEN</p>",
+          "text": "Vaš marketing medij!&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_tags": [
             "Theme"
@@ -401,7 +402,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/pharmascreen%20logo-128x81.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "width": 128,
               "link": "",
               "alt": "",
@@ -410,8 +411,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
               "linkInNewWindow": false,
-              "name": "contact-form",
-              "family": "mobirise-icons-bold",
+              "name": "sites",
+              "family": "MobiriseIcons",
               "link": "",
               "size": 0,
               "active": true
@@ -438,14 +439,14 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#282828",
-            "fontSize": "0.85",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -505,10 +506,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -516,7 +519,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Vramar Screen</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PharmaSCREEN</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-e"
         },
@@ -564,7 +567,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/pharmascreen%20logo-128x81.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "width": 128,
               "link": "",
               "alt": "",
@@ -573,8 +576,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
               "linkInNewWindow": false,
-              "name": "contact-form",
-              "family": "mobirise-icons-bold",
+              "name": "sites",
+              "family": "MobiriseIcons",
               "link": "",
               "size": 0,
               "active": true
@@ -621,14 +624,14 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#282828",
-            "fontSize": "0.85",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -688,10 +691,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -699,7 +704,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Vramar Screen</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PharmaSCREEN</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-6"
         },
@@ -763,7 +768,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/pharmascreen%20logo-128x81.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "width": 128,
               "link": "",
               "alt": "",
@@ -772,8 +777,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
               "linkInNewWindow": false,
-              "name": "contact-form",
-              "family": "mobirise-icons-bold",
+              "name": "sites",
+              "family": "MobiriseIcons",
               "link": "",
               "size": 0,
               "active": true
@@ -820,14 +825,14 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#282828",
-            "fontSize": "0.85",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -887,10 +892,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -898,7 +905,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Vramar Screen</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PharmaSCREEN</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-h"
         },
@@ -1043,7 +1050,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/pharmascreen%20logo-128x81.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "width": 128,
               "link": "",
               "alt": "",
@@ -1052,8 +1059,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
               "linkInNewWindow": false,
-              "name": "contact-form",
-              "family": "mobirise-icons-bold",
+              "name": "sites",
+              "family": "MobiriseIcons",
               "link": "",
               "size": 0,
               "active": true
@@ -1100,14 +1107,14 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#282828",
-            "fontSize": "0.85",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -1167,10 +1174,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1178,7 +1187,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Vramar Screen</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PharmaSCREEN</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-k"
         },
@@ -1274,7 +1283,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/pharmascreen%20logo-128x81.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "width": 128,
               "link": "",
               "alt": "",
@@ -1283,8 +1292,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
               "linkInNewWindow": false,
-              "name": "contact-form",
-              "family": "mobirise-icons-bold",
+              "name": "sites",
+              "family": "MobiriseIcons",
               "link": "",
               "size": 0,
               "active": true
@@ -1311,14 +1320,14 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#282828",
-            "fontSize": "0.85",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -1344,10 +1353,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1378,10 +1387,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1389,7 +1400,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Vramar Screen</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PharmaSCREEN</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-n"
         },
@@ -1459,6 +1470,63 @@
           "_anchor": "content2-1b"
         },
         {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#232323",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "KONTAKTIRAJTE NAS",
+          "subtitle": "Ako imate bilo kakvih pitanja ili ste zainteresirani sa suradnju, kontaktirajte nas putem ovog obrasca.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">POŠALJI</a>",
+          "form": {
+            "action": "mario@vramar-screen.com",
+            "alerts": {
+              "success": "Vaša poruka je zaprimljena! Javit ćemo Vam se uskoro!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Ime*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Broj mobitela*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Poruka"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-1t"
+        },
+        {
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
@@ -1520,7 +1588,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/pharmascreen%20logo-128x81.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "width": 128,
               "link": "",
               "alt": "",
@@ -1529,8 +1597,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
               "linkInNewWindow": false,
-              "name": "contact-form",
-              "family": "mobirise-icons-bold",
+              "name": "sites",
+              "family": "MobiriseIcons",
               "link": "",
               "size": 0,
               "active": true
@@ -1557,14 +1625,14 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#282828",
-            "fontSize": "0.85",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -1624,10 +1692,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1635,7 +1705,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Vramar Screen</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PharmaSCREEN</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-q"
         },
@@ -1719,7 +1789,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/pharmascreen%20logo-128x81.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "width": 128,
               "link": "",
               "alt": "",
@@ -1728,8 +1798,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
               "linkInNewWindow": false,
-              "name": "contact-form",
-              "family": "mobirise-icons-bold",
+              "name": "sites",
+              "family": "MobiriseIcons",
               "link": "",
               "size": 0,
               "active": true
@@ -1756,14 +1826,14 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#282828",
-            "fontSize": "0.85",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -1823,10 +1893,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1834,7 +1906,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Vramar Screen</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PharmaSCREEN</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-t"
         },
@@ -2106,7 +2178,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/pharmascreen%20logo-128x81.png",
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
               "width": 128,
               "link": "",
               "alt": "",
@@ -2115,8 +2187,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
               "linkInNewWindow": false,
-              "name": "contact-form",
-              "family": "mobirise-icons-bold",
+              "name": "sites",
+              "family": "MobiriseIcons",
               "link": "",
               "size": 0,
               "active": true
