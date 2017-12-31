@@ -587,11 +587,11 @@ h6,
   color: #ffffff;
 }
 #ext_menu-6 .link {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 #ext_menu-6 .dropdown-item,
 #ext_menu-6 .nav-dropdown-sm .link {
-  font-size: 0.921rem;
+  font-size: 0.975rem;
 }
 #ext_menu-6 .link:hover,
 #ext_menu-6 .dropdown-item:hover,

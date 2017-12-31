@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "PharmaSCREEN",
-    "currentPage": "oglasni-prostor.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -139,8 +139,8 @@
             "bgColor": "#a07e49",
             "bgVideoRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/embed/RzgVq8a468A?rel=0&amp;showinfo=0&autoplay=0&loop=0",
-              "rawUrl": "https://www.youtube.com/watch?v=RzgVq8a468A",
+              "url": "https://www.youtube.com/embed/1iOIy9kWoeg?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://www.youtube.com/watch?v=1iOIy9kWoeg",
               "width": 1280,
               "height": 720
             },
@@ -168,8 +168,8 @@
             "showText": true,
             "showButtons": true,
             "inverse": false,
-            "imageSize": 50,
-            "paddingTop": 0,
+            "imageSize": "52",
+            "paddingTop": "0",
             "paddingBottom": 0,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -657,10 +657,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1485,8 +1485,8 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "KONTAKTIRAJTE NAS",
-          "subtitle": "Ako imate bilo kakvih pitanja ili ste zainteresirani sa suradnju, kontaktirajte nas putem ovog obrasca.",
+          "title": "ZATRAŽI PONUDU",
+          "subtitle": "",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">POŠALJI</a>",
           "form": {
             "action": "mario@vramar-screen.com",
