@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "PharmaSCREEN",
-    "currentPage": "index.html",
+    "currentPage": "kontakt.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -23,17 +23,20 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 66,
+    "uniqCompNum": 87,
     "versionPublish": "4.3.2",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-111859569-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-111859569-1');\r\n</script>\r\n",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "POČETNA STRANICA",
-        "meta_descr": "",
+        "title": "Vramar SCREEN",
+        "meta_descr": "PharmaSCREEN\nVaš marketing medij!",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -54,7 +57,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"novosti.html\">NOVOSTI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-projektu.html\">O PROJEKTU</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -139,8 +142,8 @@
             "bgColor": "#a07e49",
             "bgVideoRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/embed/1iOIy9kWoeg?rel=0&amp;showinfo=0&autoplay=0&loop=0",
-              "rawUrl": "https://www.youtube.com/watch?v=1iOIy9kWoeg",
+              "url": "https://www.youtube.com/embed/GfywfoWEuwg?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://www.youtube.com/watch?v=GfywfoWEuwg",
               "width": 1280,
               "height": 720
             },
@@ -159,6 +162,9 @@
           "_styles": {
             ".mbr-section-title": {
               "color": "#ffffff"
+            },
+            ".mbr-section-title P": {
+              "text-align": "center"
             }
           }
         },
@@ -252,6 +258,44 @@
           "_anchor": "content5-a"
         },
         {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#efefef"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/radite-s-nama-1920x1281.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.6"
+          },
+          "title": "O PROJEKTU",
+          "text": "PharmaSCREEN je zapravo Vaš interni TV kanal kojim dižete svoje poslovanje na jedan viši i moderniji nivo s mjerljivim prihodovnim rastom. Po statističkim podacima svjetskih marketing agencija, komunikacija sa strankama kroz ovakav medij (ekran) putem navedenih marketing aktivnosti diže prodaju čak do 35%. A pažnju pacijenta zaokuplja 400% više nego statična reklama ili plakat.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"o-projektu.html\" data-toolbar=\"-mbrBtnMove\">VIŠE O PROJEKTU</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-28"
+        },
+        {
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -337,7 +381,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018. Vramar j.d.o.o.",
+          "text": "Copyright (c) 2018. Vramar j.d.o.o. &nbsp;OIB 49588622716",
           "_tags": [
             "Theme"
           ],
@@ -351,12 +395,12 @@
               "color": "#000"
             },
             ".mbr-section-title": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".lead P": {
-              "color": "#28324e",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "color": "#ffffff",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
             }
           },
           "_params": {
@@ -365,21 +409,21 @@
             "showButton": true,
             "paddingTop": "1",
             "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/radite%20s%20nama-1920x1281.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/radite-s-nama-pharmascreen-2000x1125.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#F2F2F2",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.4"
           },
           "title": "RADITE S NAMA",
-          "text": "<p>Imate ljekarnu, ordinaciju ili polikliniku i želite biti dio projekta PharmaScreen, javite se upitom za terminom sastanka kako bi zajednički sagledali sve moguće dodirne točke suradnje na obostrano zadovoljstvo.\n</p><p>Unaprijedite i modernizirajte svoje poslovanje kroz projekt PharmaScreen!</p>",
+          "text": "<p><b>Imate ljekarnu, ordinaciju ili polikliniku i želite biti dio projekta PharmaScreen, javite se upitom za terminom sastanka kako bi zajednički sagledali sve moguće dodirne točke suradnje na obostrano zadovoljstvo.\n</b></p><p><b>Unaprijedite i modernizirajte svoje poslovanje kroz projekt PharmaScreen!</b></p>",
           "_tags": [
             "Theme"
           ],
@@ -419,7 +463,7 @@
             }
           },
           "text1": "<strong>Adresa</strong><br>\nKrapinska 14<br>\n10297 Jakovlje",
-          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
+          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>Informacije: info@vramar-screen.com<br>Marketing: <br>marketing@vramar-screen.com<br>Podrška: podrska@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
           "text3": "",
           "_tags": [
             "Theme"
@@ -433,7 +477,7 @@
       "settings": {
         "meta_descr": "",
         "title": "NOVOSTI",
-        "order": 7
+        "order": 9
       },
       "components": [
         {
@@ -451,7 +495,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"novosti.html\">NOVOSTI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-projektu.html\">O PROJEKTU</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -472,10 +516,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -584,7 +628,7 @@
             }
           },
           "text1": "<strong>Adresa</strong><br>\nKrapinska 14<br>\n10297 Jakovlje",
-          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
+          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>Informacije: info@vramar-screen.com<br>Marketing: <br>marketing@vramar-screen.com<br>Podrška: podrska@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
           "text3": "",
           "_tags": [
             "Theme"
@@ -605,7 +649,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018. Vramar j.d.o.o.",
+          "text": "Copyright (c) 2018. Vramar j.d.o.o. &nbsp;OIB 49588622716",
           "_tags": [
             "Theme"
           ],
@@ -618,7 +662,7 @@
       "settings": {
         "meta_descr": "",
         "title": "O NAMA",
-        "order": 1
+        "order": 3
       },
       "components": [
         {
@@ -636,7 +680,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"novosti.html\">NOVOSTI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-projektu.html\">O PROJEKTU</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -785,7 +829,7 @@
             }
           },
           "text1": "<strong>Adresa</strong><br>\nKrapinska 14<br>\n10297 Jakovlje",
-          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
+          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>Informacije: info@vramar-screen.com<br>Marketing: <br>marketing@vramar-screen.com<br>Podrška: podrska@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
           "text3": "",
           "_tags": [
             "Theme"
@@ -806,7 +850,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018. Vramar j.d.o.o.",
+          "text": "Copyright (c) 2018. Vramar j.d.o.o. &nbsp;OIB 49588622716",
           "_tags": [
             "Theme"
           ],
@@ -819,7 +863,7 @@
       "settings": {
         "meta_descr": "",
         "title": "ŠTO RADIMO",
-        "order": 6
+        "order": 8
       },
       "components": [
         {
@@ -837,7 +881,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"novosti.html\">NOVOSTI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-projektu.html\">O PROJEKTU</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -858,10 +902,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -955,6 +999,30 @@
           "_anchor": "content2-18"
         },
         {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/to-radimo-pharmascreen-1400x787.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-26"
+        },
+        {
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
@@ -999,7 +1067,36 @@
             "Theme"
           ],
           "_name": "content2",
-          "_anchor": "content2-19"
+          "_anchor": "content2-19",
+          "_styles": {
+            "DIV": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/statistika-pharma-screen-2000x1333.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-27"
         },
         {
           "_styles": {
@@ -1012,7 +1109,7 @@
             "showText": false,
             "showButton": false,
             "paddingTop": "4",
-            "paddingBottom": "4",
+            "paddingBottom": "3",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/to-1920x1277.jpg",
             "parallax": true,
@@ -1033,7 +1130,7 @@
             "Theme"
           ],
           "_name": "msg-box8",
-          "_anchor": "msg-box8-17"
+          "_anchor": "msg-box8-24"
         },
         {
           "_params": {
@@ -1067,7 +1164,7 @@
             }
           },
           "text1": "<strong>Adresa</strong><br>\nKrapinska 14<br>\n10297 Jakovlje",
-          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
+          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>Informacije: info@vramar-screen.com<br>Marketing: <br>marketing@vramar-screen.com<br>Podrška: podrska@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
           "text3": "",
           "_tags": [
             "Theme"
@@ -1088,7 +1185,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018. Vramar j.d.o.o.",
+          "text": "Copyright (c) 2018. Vramar j.d.o.o. &nbsp;OIB 49588622716",
           "_tags": [
             "Theme"
           ],
@@ -1101,7 +1198,7 @@
       "settings": {
         "meta_descr": "",
         "title": "KONTAKT",
-        "order": 5
+        "order": 7
       },
       "components": [
         {
@@ -1119,7 +1216,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"novosti.html\">NOVOSTI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-projektu.html\">O PROJEKTU</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1140,10 +1237,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1204,7 +1301,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018. Vramar j.d.o.o.",
+          "text": "Copyright (c) 2018. Vramar j.d.o.o. &nbsp;OIB 49588622716",
           "_tags": [
             "Theme"
           ],
@@ -1215,15 +1312,15 @@
           "_params": {
             "showTitle": true,
             "showSubTitle": true,
-            "labelsColor": "#232323",
+            "labelsColor": "#efefef",
             "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/radite-s-nama-pharmascreen-2000x1125.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fff",
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
@@ -1264,7 +1361,13 @@
           "_anchor": "form1-13",
           "_styles": {
             ".form-control-label": {
-              "color": "#232323"
+              "color": "#efefef"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef"
+            },
+            "SMALL": {
+              "color": "#ffffff"
             }
           }
         },
@@ -1300,7 +1403,7 @@
             }
           },
           "text1": "<strong>Adresa</strong><br>\nKrapinska 14<br>\n10297 Jakovlje",
-          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
+          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>Informacije: info@vramar-screen.com<br>Marketing: <br>marketing@vramar-screen.com<br>Podrška: podrska@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
           "text3": "",
           "_tags": [
             "Theme"
@@ -1314,7 +1417,7 @@
       "settings": {
         "meta_descr": "",
         "title": "OGLASNI PROSTOR",
-        "order": 4
+        "order": 6
       },
       "components": [
         {
@@ -1332,7 +1435,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"novosti.html\">NOVOSTI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-projektu.html\">O PROJEKTU</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1417,7 +1520,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018. Vramar j.d.o.o.",
+          "text": "Copyright (c) 2018. Vramar j.d.o.o. &nbsp;OIB 49588622716",
           "_tags": [
             "Theme"
           ],
@@ -1462,69 +1565,12 @@
             "paddingBottom": 1,
             "bgColor": "#efefef"
           },
-          "text": "<blockquote><p>O<span style=\"font-size: 1.09rem;\">vaj vrlo inovativan i potentan projekt  omogućava pristup pacijentima dok čekaju u ljekarnama  kroz marketing poruke-spotove na uređajima PharamSCREEN. Iz pozicije psihologije prodaje, kupac ulazi u ljekarnu s odlukom o kupnji, te je u toj dimenziji otvoren za dodatnu kupnju koju može potaknuti kvalitetna marketing video poruka-spot. Iz tih razloga je PharmaSCREEN izuzetan medij za oglašavanje. Statistički podaci svjetskih marketing agencija govore u kojim postocima ovakva vrsta oglašavanja utječe na gledaoca i koliko znači za rast poslovanja.&nbsp;</span></p><p><span style=\"font-size: 1.09rem;\"><br></span></p><p><span style=\"font-size: 1.09rem;\">Između ostalog, spot od 15sek cjenovno se mjeri doslovce u lipama a prikazuje se u prodajnoj okolini (ljekarni) te upućuje suptilni utjecaj na dodatni interes stranke koja kupuje. Može li bolje?</span></p></blockquote><blockquote>Oglasni prostor je ograničen, zato zatražite ponudu sada, ugodno ćemo Vas iznenaditi.</blockquote>",
+          "text": "<blockquote><p>O<span style=\"font-size: 1.09rem;\">vaj vrlo inovativan i potentan projekt  omogućava pristup pacijentima dok čekaju u ljekarnama  kroz marketing poruke-spotove na uređajima PharamSCREEN. Iz pozicije psihologije prodaje, kupac ulazi u ljekarnu s odlukom o kupnji, te je u toj dimenziji otvoren za dodatnu kupnju koju može potaknuti kvalitetna marketing video poruka-spot. Iz tih razloga je PharmaSCREEN izuzetan medij za oglašavanje. Statistički podaci svjetskih marketing agencija govore u kojim postocima ovakva vrsta oglašavanja utječe na gledaoca i koliko znači za rast poslovanja.&nbsp;</span></p></blockquote>",
           "_tags": [
             "Theme"
           ],
           "_name": "content2",
           "_anchor": "content2-1b"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
-            "labelsColor": "#232323",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "ZATRAŽI PONUDU",
-          "subtitle": "",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">POŠALJI</a>",
-          "form": {
-            "action": "mario@vramar-screen.com",
-            "alerts": {
-              "success": "Vaša poruka je zaprimljena! Javit ćemo Vam se uskoro!"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Ime*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Broj mobitela*"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Poruka"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          },
-          "_anchor": "form1-1t"
         },
         {
           "_styles": {
@@ -1566,12 +1612,72 @@
             "paddingBottom": 1,
             "bgColor": "#efefef"
           },
-          "text": "<blockquote>-83% ljudi sjećaju se video reklame koju su vidjeli na digitalnom billboardu zadnjih 30 dana\r</blockquote><blockquote>-Od 3 kune koje idu na marketing, 1 kuna ide prema digitalnom billboardu\r</blockquote><blockquote>-800% ima više oglašavanja putem digitalnog billboarda nego putem statičnih reklama\r</blockquote><blockquote>-1200% je rast oglašavanja putem digitalnih billboarda\r</blockquote><blockquote>-Prodaja je uspješnija 35% kod ljudi koji čekaju u redu\r</blockquote><blockquote>-Zaokuplja pažnju kupca 400% više nego statična reklama\r</blockquote><blockquote>-8 od 10 kupaca reagira na viđenu informaciju kroz digitalni billboard – video poruka\r</blockquote><blockquote>-Oko 60% kupaca odlučilo se za kupnju potaknuti informacijom kroz digitalni billboard\r</blockquote><blockquote>-80% brandova uočilo je povečanje prodaje od 33% nakon što se oglašavaju putem video poruka kroz digitalni billboard\r</blockquote>",
+          "text": "<blockquote><p><b>Statistički podaci svjetskih marketing agencija govore u kojim postocima ovakva vrsta oglašavanja utječe na gledaoca i koliko znači za rast poslovanja:&nbsp;</b></p><p><br></p><p>-83% ljudi sjećaju se video reklame koju su vidjeli na digitalnom billboardu zadnjih 30 dana\n</p></blockquote><blockquote>-Od 3 kune koje idu na marketing, 1 kuna ide prema digitalnom billboardu\n</blockquote><blockquote>-800% ima više oglašavanja putem digitalnog billboarda nego putem statičnih reklama\n</blockquote><blockquote>-1200% je rast oglašavanja putem digitalnih billboarda\n</blockquote><blockquote>-Prodaja je uspješnija 35% kod ljudi koji čekaju u redu\n</blockquote><blockquote>-Zaokuplja pažnju kupca 400% više nego statična reklama\n</blockquote><blockquote>-8 od 10 kupaca reagira na viđenu informaciju kroz digitalni billboard – video poruka\n</blockquote><blockquote>-Oko 60% kupaca odlučilo se za kupnju potaknuti informacijom kroz digitalni billboard\n</blockquote><blockquote><p>-80% brandova uočilo je povečanje prodaje od 33% nakon što se oglašavaju putem video poruka kroz digitalni billboard</p><p><br></p><p><b>Između ostalog, spot od 15sek cjenovno se mjeri doslovce u lipama a prikazuje se u prodajnoj okolini (ljekarni) te upućuje suptilni utjecaj na dodatni interes stranke koja kupuje. Može li bolje?\r</b></p><p><b>\r</b></p><p><b>Oglasni prostor je ograničen, zato zatražite ponudu sada, ugodno ćemo Vas iznenaditi.</b></p><p>\n</p></blockquote>",
           "_tags": [
             "Theme"
           ],
           "_name": "content2",
           "_anchor": "content2-1d"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#efefef",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/oglasni-prostor-pharmascreen-1600x800.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
+          },
+          "title": "ZATRAŽI PONUDU",
+          "subtitle": "",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">POŠALJI</a>",
+          "form": {
+            "action": "mario@vramar-screen.com",
+            "alerts": {
+              "success": "Vaša poruka je zaprimljena! Javit ćemo Vam se uskoro!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Ime*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Broj mobitela*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Poruka"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#efefef"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef"
+            }
+          },
+          "_anchor": "form1-1t"
         },
         {
           "_params": {
@@ -1605,7 +1711,7 @@
             }
           },
           "text1": "<strong>Adresa</strong><br>\nKrapinska 14<br>\n10297 Jakovlje",
-          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
+          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>Informacije: info@vramar-screen.com<br>Marketing: <br>marketing@vramar-screen.com<br>Podrška: podrska@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
           "text3": "",
           "_tags": [
             "Theme"
@@ -1619,7 +1725,7 @@
       "settings": {
         "meta_descr": "",
         "title": "PODRŠKA",
-        "order": 3
+        "order": 5
       },
       "components": [
         {
@@ -1637,7 +1743,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"novosti.html\">NOVOSTI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-projektu.html\">O PROJEKTU</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1658,10 +1764,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1722,7 +1828,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018. Vramar j.d.o.o.",
+          "text": "Copyright (c) 2018. Vramar j.d.o.o. &nbsp;OIB 49588622716",
           "_tags": [
             "Theme"
           ],
@@ -1733,15 +1839,53 @@
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
+            },
+            "DIV": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "20px",
+              "color": "#efefef"
             }
           },
           "_params": {
             "showTitle": true,
-            "showCaption": false,
-            "paddingTop": "3",
-            "paddingBottom": "1",
+            "showCaption": true,
+            "paddingTop": "5",
+            "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/podrska-1920x828.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/podrka-pharmascreen-2000x1333.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.6"
+          },
+          "title": "Naša TEHNIČKA PODRŠKA za Vas nudi:",
+          "caption": "<div>-\tKreiranje Vaših promo video materijala\n</div><div>- Upravljanje i održavanje Vaših sadržaja\n</div><div>- Tehnička podrška\n</div><div>- Vođenje Vaših stranica ili profila na društvenim mrežama\n</div><div>- Izrada web stranica\n</div><div>\n</div><div>- IZRADA MOBILNE APP ZA VAS\n</div><div>\n</div><div>- IZRADA WEB SHOP-a</div>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-1u"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showCaption": false,
+            "paddingTop": "5",
+            "paddingBottom": "5",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/web-shop-vramar-1280x1012.png",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -1753,26 +1897,13 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.5
           },
-          "title": "PODRŠKA",
+          "title": "BACKGROUND IMAGE",
           "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-1e"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#efefef"
-          },
-          "text": "<blockquote><b>Naša tehnička podrška za vas nudi:\r</b></blockquote><blockquote>-\tKreiranje Vaših promo video materijala\r</blockquote><blockquote>- Upravljanje i održavanje Vaših sadržaja\r</blockquote><blockquote>- Tehnička podrška\r</blockquote><blockquote>- Vođenje Vaših stranica ili profila na društvenim mrežama\r</blockquote><blockquote>- Izrada web stranica\r</blockquote><blockquote>- IZRADA MOBILNE APP ZA VAS\r</blockquote>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content2",
-          "_anchor": "content2-1f"
+          "_anchor": "content5-1w"
         },
         {
           "_params": {
@@ -1806,7 +1937,7 @@
             }
           },
           "text1": "<strong>Adresa</strong><br>\nKrapinska 14<br>\n10297 Jakovlje",
-          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
+          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>Informacije: info@vramar-screen.com<br>Marketing: <br>marketing@vramar-screen.com<br>Podrška: podrska@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
           "text3": "",
           "_tags": [
             "Theme"
@@ -1820,7 +1951,7 @@
       "settings": {
         "meta_descr": "",
         "title": "TEMATIKA OGLAŠAVANJA",
-        "order": 2
+        "order": 4
       },
       "components": [
         {
@@ -1838,7 +1969,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"novosti.html\">NOVOSTI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-projektu.html\">O PROJEKTU</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1859,10 +1990,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1923,7 +2054,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright (c) 2018. Vramar j.d.o.o.",
+          "text": "Copyright (c) 2018. Vramar j.d.o.o. &nbsp;OIB 49588622716",
           "_tags": [
             "Theme"
           ],
@@ -2195,13 +2326,526 @@
             }
           },
           "text1": "<strong>Adresa</strong><br>\nKrapinska 14<br>\n10297 Jakovlje",
-          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
+          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>Informacije: info@vramar-screen.com<br>Marketing: <br>marketing@vramar-screen.com<br>Podrška: podrska@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
           "text3": "",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
           "_anchor": "contacts1-v"
+        }
+      ]
+    },
+    "o-projektu.html": {
+      "settings": {
+        "meta_descr": "",
+        "title": "O PROJEKTU",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": "0.9",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-projektu.html\">O PROJEKTU</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.9rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.975rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PharmaSCREEN</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1x"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018. Vramar j.d.o.o. &nbsp;OIB 49588622716",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1y"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/sto-radimo-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "O PROJEKTU",
+          "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-20"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text": "<blockquote>PharmaSCREEN je zapravo Vaš interni TV kanal kojim dižete svoje poslovanje na jedan viši i moderniji nivo s mjerljivim prihodovnim rastom. Po statističkim podacima svjetskih marketing agencija, komunikacija sa strankama kroz ovakav medij (ekran) putem navedenih marketing aktivnosti diže prodaju čak do 35%. A pažnju pacijenta zaokuplja 400% više nego statična reklama ili plakat.</blockquote><blockquote>Zamislite samo, u mogućnosti ste dnevno koristiti 16h medijskog prostora za marketing prema svojim pacijentima i to s reklamnim spotovima. Uz važnu napomenu da dio svog medijskog prostora možete ustupiti svojim dobavljačima, naravno uz nadoknadu. Odlično, zar ne?</blockquote><blockquote><b>Najbolji dio je taj da Vam u svemu mi pružamo kompletnu podršku i odrađujemo za Vas SVE!</b></blockquote>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-22"
+        },
+        {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/o-projektu-810x617.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-23"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
+              "width": 128,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "sites",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<strong>Adresa</strong><br>\nKrapinska 14<br>\n10297 Jakovlje",
+          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>Informacije: info@vramar-screen.com<br>Marketing: <br>marketing@vramar-screen.com<br>Podrška: podrska@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
+          "text3": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1z"
+        }
+      ]
+    },
+    "galerija.html": {
+      "settings": {
+        "meta_descr": "",
+        "title": "GALERIJA",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": "0.9",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-nama.html\">O NAMA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"o-projektu.html\">O PROJEKTU</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"sto-radimo.html\">ŠTO RADIMO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"oglasni-prostor.html\">OGLASNI PROSTOR</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.9rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.975rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PharmaSCREEN</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2a"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
+            "paddingTop": "3",
+            "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/graf-1920x1281.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/graf-1920x1281-800x533.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/medical-1920x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/medical-1920x1280-800x533.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/o-projektu-810x617.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/o-projektu-810x617-800x609.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/oglasni-prostor-pharmascreen-1600x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/oglasni-prostor-pharmascreen-1600x800-800x400.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/pharmascreen-550x550.png",
+                "thumb": "@PROJECT_PATH@/assets/images/pharmascreen-550x550-550x550.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/podrka-pharmascreen-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/podrka-pharmascreen-2000x1333-800x533.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/radite-s-nama-pharmascreen-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/radite-s-nama-pharmascreen-2000x1125-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/statistika-pharma-screen-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/statistika-pharma-screen-2000x1333-800x533.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/to-radimo-pharmascreen-1920x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/to-radimo-pharmascreen-1920x1080-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/web-shop-vramar-screen-pharmascreen-1280x910.png",
+                "thumb": "@PROJECT_PATH@/assets/images/web-shop-vramar-screen-pharmascreen-1280x910-800x568.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "allItem": "All",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-2e"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/pharmascreen-128x128.png",
+              "width": 128,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "sites",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<strong>Adresa</strong><br>\nKrapinska 14<br>\n10297 Jakovlje",
+          "text2": "<strong>Kontaktirajte nas</strong><br>\nEmail: mario@vramar-screen.com<br>Informacije: info@vramar-screen.com<br>Marketing: <br>marketing@vramar-screen.com<br>Podrška: podrska@vramar-screen.com<br>\nMobitel: 091 3131 343<br>Skype:&nbsp;mario_vrabec",
+          "text3": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2b"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018. Vramar j.d.o.o. &nbsp;OIB 49588622716",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2c"
         }
       ]
     }
